@@ -10,9 +10,16 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+
+        // 🎨 Custom pink primary palette
+        primary: {
+          DEFAULT: "#ec4899", // Tailwind's pink-500
+          light: "#f9a8d4", // pink-300
+          dark: "#db2777", // pink-700
+        },
       },
-      gridTemplateColumns:{
-        'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
+      gridTemplateColumns: {
+        auto: "repeat(auto-fit, minmax(200px, 1fr))",
       },
     },
   },
